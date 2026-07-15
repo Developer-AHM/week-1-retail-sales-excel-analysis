@@ -34,37 +34,6 @@ Throughout this internship, I focused on:
 
 ---
 
-# 📂 Repository Structure
-
-```text
-LogicStack-Data-Analytics-Internship
-│
-├── datasets
-│   ├── retail_sales_dataset.csv
-│   └── SCMS_Delivery_History_Dataset.csv
-│
-├── notebooks
-│   ├── Week1_Retail_Sales_Analysis.ipynb
-│   ├── Week2_Retail_Sales_Analysis.ipynb
-│   └── Week3_Supply_Chain_Analysis.ipynb
-│
-├── excel
-│   ├── Week1_Retail_Sales_Analysis.xlsx
-│   └── Week2_Retail_Sales_Analysis.xlsx
-│
-├── powerbi
-│   ├── Week2_PowerBI_Dashboard.pbix
-│   ├── Week2_Dashboard.png
-│   ├── Week3_PowerBI_Dashboard.pbix
-│   └── Week3_Dashboard.png
-│
-├── screenshots
-│
-└── README.md
-```
-
----
-
 # 📅 Week 1 – Retail Sales Excel Analysis
 
 ## 📖 Project Overview
