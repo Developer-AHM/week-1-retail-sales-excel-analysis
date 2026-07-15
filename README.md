@@ -1,137 +1,272 @@
 # 📊 LogicStack Data Analytics Internship
 
-## Retail Sales Data Analysis (Week 1 & Week 2)
+## 🚀 Data Analytics Projects (Week 1 – Week 3)
 
-This repository contains my work completed during the **LogicStack Data Analytics Internship**, where I analyzed a retail sales dataset using **Google Sheets, Python, Pandas, and Microsoft Power BI**. The projects focus on data cleaning, business analysis, KPI calculation, dashboard creation, and data visualization.
+Welcome to my **LogicStack Data Analytics Internship** repository.
 
----
-
-## 🛠️ Tools & Technologies
-
-- Google Sheets (Excel)
-- Python
-- Pandas
-- Jupyter Notebook
-- Microsoft Power BI
-- Git & GitHub
+This repository contains all the projects completed during my internship, where I applied **Excel, Python, Pandas, Jupyter Notebook, and Microsoft Power BI** to solve real-world business problems through data analysis, visualization, and dashboard development.
 
 ---
 
-## 📂 Dataset
+# 🎯 Internship Objectives
 
-The project uses a retail sales dataset containing **1,000 transactions** with the following fields:
+Throughout this internship, I focused on:
 
-- Transaction ID
-- Date
-- Customer ID
-- Gender
-- Age
-- Product Category
-- Quantity
-- Price per Unit
-- Total Amount
+- Data Cleaning & Validation
+- Exploratory Data Analysis (EDA)
+- Business KPI Analysis
+- Excel & Google Sheets Automation
+- Python Data Analysis using Pandas
+- Data Visualization
+- Interactive Dashboard Development using Power BI
+- Professional Documentation using GitHub
+
+---
+
+# 🛠️ Tools & Technologies
+
+- 📊 Microsoft Excel / Google Sheets
+- 🐍 Python
+- 🐼 Pandas
+- 📓 Jupyter Notebook
+- 📈 Microsoft Power BI
+- 💻 Git & GitHub
+
+---
+
+# 📂 Repository Structure
+
+```text
+LogicStack-Data-Analytics-Internship
+│
+├── datasets
+│   ├── retail_sales_dataset.csv
+│   └── SCMS_Delivery_History_Dataset.csv
+│
+├── notebooks
+│   ├── Week1_Retail_Sales_Analysis.ipynb
+│   ├── Week2_Retail_Sales_Analysis.ipynb
+│   └── Week3_Supply_Chain_Analysis.ipynb
+│
+├── excel
+│   ├── Week1_Retail_Sales_Analysis.xlsx
+│   └── Week2_Retail_Sales_Analysis.xlsx
+│
+├── powerbi
+│   ├── Week2_PowerBI_Dashboard.pbix
+│   ├── Week2_Dashboard.png
+│   ├── Week3_PowerBI_Dashboard.pbix
+│   └── Week3_Dashboard.png
+│
+├── screenshots
+│
+└── README.md
+```
 
 ---
 
 # 📅 Week 1 – Retail Sales Excel Analysis
 
-## 📖 Overview
+## 📖 Project Overview
 
-Performed data cleaning, validation, basic analysis, chart creation, and documented business observations using **Google Sheets** and **Python**.
+Analyzed a retail sales dataset using **Google Sheets (Excel)** and **Python** by performing data cleaning, validation, statistical analysis, and business reporting.
 
 ### ✅ Tasks Completed
 
 - Data cleaning and formatting
-- Data quality checks
+- Data quality validation
 - Basic statistical analysis
 - Sorting and filtering
-- Sales analysis by category and gender
+- Sales analysis by category
+- Sales analysis by gender
 - Chart creation
 - Python verification of calculations
 
-### 📌 Key Observations
+### 📊 Charts Created
 
+- Bar Chart – Sales by Product Category
+- Column Chart – Quantity Sold by Category
+- Pie Chart – Sales by Gender
+
+### 📌 Key Insights
+
+- Electronics generated the highest sales.
 - Clothing recorded the highest quantity sold.
-- Electronics generated the highest total sales.
-- Most customers in the dataset were female.
-- A total of **2,514** products were sold across **1,000** transactions.
-- Customer ages ranged from **18** to **64** years, with an average age of **41** years.
+- Female customers represented the majority of buyers.
+- Total products sold: **2,514**
+- Average customer age: **41 years**
 
-### 📚 Learning Outcomes
+### 📚 Skills Learned
 
 - Data Cleaning
 - Excel Formulas
-- Business Data Analysis
+- Data Validation
+- Business Analysis
 - Data Visualization
 - Python Verification
 
 ---
 
-# 📈 Week 2 – Advanced Excel Analysis & Power BI Dashboard
+# 📅 Week 2 – Advanced Excel Analysis & Power BI Dashboard
 
-## 📖 Overview
+## 📖 Project Overview
 
-Performed advanced retail sales analysis using **Pivot Tables**, calculated **Key Performance Indicators (KPIs)**, verified results using **Python**, and built an interactive **Power BI Dashboard**.
+Performed advanced retail sales analysis using **Pivot Tables**, calculated **Key Performance Indicators (KPIs)**, verified results with Python, and designed an interactive **Power BI Dashboard**.
 
 ### ✅ Tasks Completed
 
-- Pivot Table analysis
-- KPI calculations
-- Python verification
-- Business insights
-- Power BI dashboard creation
+- Pivot Table Analysis
+- KPI Calculations
+- Python Verification
+- Business Insights
+- Power BI Dashboard
 
 ### 📊 Dashboard Features
 
-- KPI Cards
-  - Total Sales
-  - Total Transactions
-  - Total Quantity Sold
-  - Average Sales
+#### KPI Cards
+
+- Total Sales
+- Total Transactions
+- Total Quantity Sold
+- Average Sales
+
+#### Dashboard Visuals
+
 - Sales by Product Category
 - Sales by Gender
-- Quantity Sold by Product Category
+- Quantity Sold by Category
 - Sales Trend by Date
 - Age Group Analysis
 
 ### 📌 Key Insights
 
-- Electronics generated the highest total sales.
-- Clothing recorded the highest quantity sold.
-- Female customers contributed more to the overall sales.
-- A total of **2,514** products were sold across **1,000** transactions.
-- The average customer age was approximately **41** years.
+- Electronics generated the highest revenue.
+- Clothing products had the highest sales volume.
+- Female customers contributed more to total sales.
+- Customer age ranged from **18–64 years**.
+- Total transactions analyzed: **1,000**
 
-### 📚 Learning Outcomes
+### 📚 Skills Learned
 
 - Pivot Tables
 - KPI Analysis
-- Power BI Dashboard
-- Business Insights
+- Business Reporting
+- Power BI Dashboard Design
+- Dashboard Storytelling
+
+---
+
+# 📅 Week 3 – Supply Chain Data Analysis & Power BI Dashboard
+
+## 📖 Project Overview
+
+Analyzed a real-world **Supply Chain Management (SCMS)** dataset using **Python (Pandas)** and **Microsoft Power BI** to evaluate shipment performance, delivery delays, freight costs, and vendor performance.
+
+### ✅ Tasks Completed
+
+### Data Cleaning
+
+- Handled missing values
+- Converted date columns
+- Converted numeric columns
+- Feature engineering
+- Created Delivery Delay column
+
+### Exploratory Data Analysis (EDA)
+
+- Shipment Analysis
+- Delivery Performance Analysis
+- Cost Analysis
+- Delay Analysis
+
+### Group-Based Analysis
+
+- Country vs Total Shipments
+- Vendor vs Total Cost
+- Product Group vs Total Value
+- Shipment Mode vs Average Delivery Delay
+
+### Python Visualizations
+
+- Bar Chart – Country vs Total Shipments
+- Pie Chart – Shipment Mode Distribution
+- Line Chart – Delivery Trend Over Time
+
+### Power BI Dashboard
+
+#### KPI Cards
+
+- Total Shipments
+- Total Freight Cost
+- Average Delivery Delay
+- Total Line Item Value
+
+#### Dashboard Visuals
+
+- Country vs Total Shipments
+- Shipment Mode Distribution
+- Delivery Trend Over Time
+- Vendor vs Total Cost
+
+### 📌 Python Insights
+
+- Air shipment was the most commonly used shipment mode.
+- Shipment volumes differed significantly across countries.
+- Freight cost represented a major logistics expense.
+- Vendor costs varied considerably across suppliers.
+- Delivery delays differed based on shipment mode.
+
+### 📊 Power BI Insights
+
+- A few countries handled the majority of shipments.
+- Vendor costs were concentrated among the top suppliers.
+- Delivery performance showed noticeable trends over time.
+
+### 💡 Business Recommendations
+
+- Improve shipment scheduling to reduce delivery delays.
+- Optimize freight costs by selecting efficient shipment modes and vendors.
+
+### 📚 Skills Learned
+
+- Pandas Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Group-Based Analysis
+- Python Visualization
+- Power BI Dashboard Development
+- Business Insight Generation
+
+---
+
+# 🎓 Overall Learning Outcomes
+
+Through these internship projects, I gained hands-on experience in:
+
+- Data Cleaning & Preparation
+- Exploratory Data Analysis (EDA)
+- Excel & Google Sheets
+- Pivot Tables
+- Business KPI Analysis
+- Python (Pandas)
 - Data Visualization
+- Microsoft Power BI
+- Dashboard Design
+- Business Reporting
+- Git & GitHub Documentation
 
 ---
 
-## 📁 Repository Contents
-
-```text
-📂 screenshots/
-📄 retail_sales_dataset.csv
-📊 Week1_Retail_Sales_Analysis.xlsx
-📊 Week2_Retail_Sales_Analysis.xlsx
-🐍 Week1_Retail_Sales_Analysis.ipynb
-🐍 Week2_Retail_Sales_Analysis.ipynb
-📘 README.md
-```
-
----
-
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Abdul Hadi**
 
-**Data Analytics Intern at LogicStack**
+**Data Analytics Intern – LogicStack**
 
 ---
 
-⭐ *Thank you for visiting this repository! If you found this project interesting, feel free to explore the files and share your feedback.*
+## ⭐ Thank You
+
+Thank you for visiting this repository.
+
+If you found these projects helpful or interesting, feel free to ⭐ the repository and share your feedback.
